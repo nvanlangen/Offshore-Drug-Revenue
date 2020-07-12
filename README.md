@@ -67,7 +67,7 @@ Monthly Sales forecast of the Drug
 
 ![](Images/5.png)
  
- * Spread comparison of each country to compare that even though size of Revenue a country is higher than the other, the diversity of products imported maybe better for another country. 
+ * Spread comparison of each country to compare that even though size of Revenue of a country is higher than the other, the diversity of products imported maybe better for the other. 
 
  ![](Images/7.png)
 
