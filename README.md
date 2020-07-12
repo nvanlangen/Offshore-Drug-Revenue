@@ -1,5 +1,5 @@
 # US Pharmaceutical Business Data Analysis and Prediction
-The project, completed by a team of four,  is to analyse a sample dataset of Offshore Pharmaceutical business by US based companies for 2015 and assist in decision making . The dataset contains 3326 rows and 16 columns.
+The project, completed by a team of four,  to analyse a sample dataset of Offshore business by US based Pharmaceutical Companies for 2015 and assist in decision making . The dataset contains 3326 rows and 16 columns.
 
 ## Team Members
 * Akshita Parasrampuria
