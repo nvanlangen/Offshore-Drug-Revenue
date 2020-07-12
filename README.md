@@ -12,7 +12,7 @@ The project, completed by a team of four,  to analyse a sample dataset of Offsho
 * Past performance of each drug to understand their prospect for the coming year.
 * Predicting sales for a product for the coming year to budget demand based on past year's trend (Time Series Analysis)
 * Potential Markets for growing business
-* Helping in capital budgeting like a cost benefit analysis of building a plant in the middle of the market to save on transportation costs.
+* Helping in capital budgeting decisions like a cost benefit analysis of building a plant in the middle of the market to save on transportation costs.
 
 ## Data Source
 [Kaggle](https://www.kaggle.com/mnshsh07/pharmaceutical-business-dataset)
