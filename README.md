@@ -20,6 +20,7 @@ The project, completed by a team of four,  to analyse a sample dataset of Offsho
 ## Tools and Tenchnologies used and Required to run the Project
 * Python 3
 	* Libraries:- Pandas, Matplotlib, fbProphet, Json, Requests, Datetime, NumPy, SciPy, Gmaps, Warnings
+* Prophet Model for Time Series Analysis
 * GeoCode API
 * World Bank API
 * Jupyter Notebook
