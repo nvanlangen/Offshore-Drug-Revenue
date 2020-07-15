@@ -31,10 +31,11 @@ Our dataset, Pharmaceutical Business Dataset, was retrieved from [Kaggle](https:
 2. Open Jupyter Notebook, Open Part 1, 2, 3 and 4, in that order.
 3. Comment out last line in first cell and enter your GeoCode API key as g_key="YOUR KEY HERE"
 4. Run all the files. This will run all the cells on the page and display all the dataframes and graphs.
-5. Alternatively, you can also download the Project.pptx and see the whole process and output of the Project  
+5. Alternatively, you can also download the Project.pptx and see the whole process and output of the Project.
+6. Comparisons can be changed to drug of interest! Please refer to the Drug Comparative Performance to Treat Arthritis & Nexium Sale Prediction sections in Our Findings for examples on how the data visualization will appear.
 
 ## Our Findings
-* Heatmap based on Revenue: 
+### Heatmap based on Revenue: 
 This image displays the top regions that bring in the most revenue. This can be a major help in several decision making factors such as aiding in the cost benefit analysis of building a plant in the most marketable areas like South Asia and the Middle East to save on transportation costs.
 ![](Images/12.png)
 
@@ -68,42 +69,46 @@ If more time allowed, it would be interesting to see if all these predictions we
 ![](Images/2.png)
 
 ### Drug Comparative Performance to Treat Arthritis:
-* Comparative Performance of Drugs used to Treat a common disease "Arthritis" because drugs cannot be compared unless their target treatment is common.
-(Can be checked for any other disease too just by changing the name of the disease)
+Here, we wanted to take a quick look at how companies' revenue compared based off of one health condition of focus. We picked Arthritis as an example and as shown in the graph, Rituxan, MabThera stands out as the drug of choice based on our dataset. Official government websites we found didn't specifically suggest which drug is the best for this chronic condition and instead encouraged patients to seek advice from their doctor. So the best information we found so far we were current customer reviews in order to see if the medications on this chart still hold true today. Based on those reviews, Rituxan is actually placed as 9th on the list. The top drug on the chart below to treat Arthritis based on current reviews seems to be Enbrel, Humira, and Celebrex in that order. Current data on drug revenues will be needed to see if there is a match with consumer preference.
+
+(To look at additional comparisons, simply change the disease in Jupyter NB to search for drug revenue)
 
 ![](Images/3.png)
 
-###
-* Sale Prediction of a drug "Nexium" for the next year using Facebook's Prophet Model. The black dots are actual data points and the deep blue line is the forecast.
-(Can be checked for any other drug too just by changing the name of the drug)
+### Nexium Sale Prediction:
+Facebook's Prophet Model was used to determine the sale prediction for Nexium based on this 2015 dataset. The black dots are actual data points and the deep blue line represents the forecast into 2016. As you can see, Nexium's potential sales for 2016 seems to continue 2015's trend in revenue generation.
+
+(To look at additional comparisons, simply change the drug name in Jupyter NB to search for their sale prediction)
+
 ![](Images/4.png)
 
-### Monthly Sales forecast of the Drug
+### Monthly Sales forecast of the Drug:
+This graphs shows an additional way to view drug sale predeiction for Nexium.
 
 ![](Images/5.png)
  
- ###
- * Spread comparison of each country to compare that even though size of Revenue of a country is higher than the other, the diversity of products imported maybe better for the other. 
+ ### Revenue Spread of Top 5 Countries:
+ Spread comparison of each country to compare that even though size of Revenue of a country is higher than one, the diversity of products imported maybe better. 
 
  ![](Images/7.png)
 
-###
- *  Revenue Per 10,000 Capita of Countries because even though revenue from India was highest, when compared to its population, it shows there is a lot of potential and similarly for Singapore, even though in terms of revenue it ranks 12th, in terms of per capita Revenue it ranks first.  
+### Revenue Per 10,000 Capita by Country:
+As shown below, the revenue generated from India was highest when compared to its population. Another country that shows similar per capita results to India is Singapore despite it ranking 12th in terms of revenue and 1st in terms of revenue. 
 
  ![](Images/10.png)
 
-###
- * Countries that have scope for Sales.
+### Targed Countries to Consider:
+Top countries to seek more market growth is China which has 0.88 revenue/capita considering and Russia with a revenue/capita of 1.97. 
  
  ![](Images/8.png)
 
-###
-* Potential Revenue from each country based on population by calculating gap from revenue per capita's mean. However, there are limitations in determining potential that should be considered like Political impacts, Trade Policies, Sanctions, Domestic Availability.
+### Potential Revenue from each Country by Population:
+This graph was accomplished by calculating gap from revenue per capita's mean. The results below further illustrate that China would be the best business venture. However, there are limitations in determining potential that should be considered such as Political impacts, Trade Policies, Sanctions, Domestic Availability.
 
 ![](Images/9.png)
 
-###
-* Map with markers indicating Country and Revenue for the year. 
+### Global View of 2015 Revenue
+Clicking on each marker will display the country and revenue like the one displayed below. This global view helps to illustrate the current countries that pharmaceuticals are currrently sold as well as potential countries to venture into such as China and Russia explained previously. Other places to consider are North America, South America and African region. More information will be needed to investigate sales in those areas as well as any limitations such as the ones discribed in the previous section.  
 
 ![](Images/6.png)
 
