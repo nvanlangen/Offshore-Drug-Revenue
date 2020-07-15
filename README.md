@@ -40,7 +40,9 @@ This image displays the top regions that bring in the most revenue. This can be 
 ![](Images/12.png)
 
 ### Revenue & Quantity by Drugs:
-Here we have a comparison on revenue and quantity of the drugs sold. Because only looking at sales can depict misleading results like in the case of Copaxone, we wanted to see how other medications compaired. Back to our example of Copaxone, it is higher than Avastin in terms of revenue but there was a higher quantity of Avastin sold. Because of this, we concluded that the company selling Avastin, Genentech Inc., is likely generating more business than Teva Pharma., the company selling Copaxone. Medication need can also be another factor since Avastin has the ability to treat a range of cancers while Copaxone only treats multiple sclerosis. We also noticed that Lyrica, manufactured by Pfizer, sold more than it's competitors while also generating the most revenue. This could mean that this is the most popular drug for nerve/muscle pain and the most expensive.
+Here we have a comparison on revenue and quantity of the drugs sold. Because soley looking at sales can depict misleading results like in the case of Copaxone, we wanted to see how other medications compaired. In comparison to Copaxone, it is higher than Avastin in terms of revenue but there was a higher quantity of Avastin sold. Because of this, we concluded that the company selling Avastin, Genentech Inc., is likely generating more business than Teva Pharma., the company selling Copaxone. 
+
+Medication need can also be another factor since Avastin has the ability to treat a range of cancers while Copaxone only treats multiple sclerosis. We also noticed that Lyrica, manufactured by Pfizer, sold more than it's competitors while also generating the most revenue. This could mean that this is the most popular drug for nerve/muscle pain and the most expensive.
 
 ![](Images/0.png)
 
@@ -69,7 +71,9 @@ If more time allowed, it would be interesting to see if all these predictions we
 ![](Images/2.png)
 
 ### Drug Comparative Performance to Treat Arthritis:
-Here, we wanted to take a quick look at how companies' revenue compared based off of one health condition of focus. We picked Arthritis as an example and as shown in the graph, Rituxan, MabThera stands out as the drug of choice based on our dataset. Official government websites we found didn't specifically suggest which drug is the best for this chronic condition and instead encouraged patients to seek advice from their doctor. So the best information we found so far we were current customer reviews in order to see if the medications on this chart still hold true today. Based on those reviews, Rituxan is actually placed as 9th on the list. The top drug on the chart below to treat Arthritis based on current reviews seems to be Enbrel, Humira, and Celebrex in that order. Current data on drug revenues will be needed to see if there is a match with consumer preference.
+Here, we wanted to take a quick look at how companies' revenue compared based off of one health condition of focus. We picked Arthritis as an example and as shown in the graph, Rituxan, MabThera stands out as the drug of choice based on our dataset. 
+
+Official government websites we found didn't specifically suggest which drug is the best for this chronic condition and instead encouraged patients to seek advice from their doctor. So the best information we found so far were current customer reviews in order to see if the medications on this chart still hold true today. Based on those reviews, Rituxan is actually placed as 9th on the list. The top drug on the chart below to treat Arthritis based on current reviews seems to be Enbrel, Humira, and Celebrex in that order. Current data on drug revenues will be needed to see if there is a match with consumer preference.
 
 (To look at additional comparisons, simply change the disease in Jupyter NB to search for drug revenue)
 
@@ -113,13 +117,21 @@ Clicking on each marker will display the country and revenue like the one displa
 ![](Images/6.png)
 
 ## Limitations
-* This dataset only provided one year's worth of pharmaceutical revenue back in...
-* 
+* This dataset only provided one year's worth of pharmaceutical revenue which was back in 2015
+* Time and availability of more current pharmaceutical revenue data also limited us in making more concrete analysis.
 
 ## References
 Companies Mentioned:
-* Sanofi
-* Genentech, Inc.
-* Janseen Phamra(formerly known as )
+* Sanofi: https://www.drugs.com/manufacturer/sanofi-126.html
+* Genentech, Inc.: https://www.drugs.com/manufacturer/genentech-inc-57.html
+* Janseen Phamra(formerly known as Centocor Orther Biotech,Inc.): https://www.drugs.com/manufacturer/janssen-pharmaceuticals-inc-74.html
 
 Drugs Mentioned: 
+* Humira: https://www.drugs.com/humira.html
+* Copaxone: https://www.drugs.com/copaxone.html
+* Avastin: https://www.drugs.com/avastin.html
+* Lyrica: https://www.drugs.com/lyrica.html
+
+Health Condidtions Mentioned:
+* Example of government website encouraging doctor's advice: https://www.mayoclinic.org/diseases-conditions/rheumatoid-arthritis/diagnosis-treatment/drc-20353653
+* Arthritus Customer Review: https://www.drugs.com/condition/rheumatoid-arthritis.html
